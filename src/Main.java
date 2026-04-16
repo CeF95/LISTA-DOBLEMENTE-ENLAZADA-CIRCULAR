@@ -7,15 +7,15 @@ public class Main { // Método principal para ejecutar el programa
         int opcion, valor;  // Variables para almacenar la opción del menú y el valor a insertar o buscar
 
         do { // Bucle del menu
-            System.out.println("LISTA DOBLEMENTE ENLAZADA CIRCULAR");
-            System.out.println("1. Insertar al Inicio");
+            System.out.println("\nLISTA DOBLEMENTE ENLAZADA CIRCULAR");
+            System.out.println("\n1. Insertar al Inicio");
             System.out.println("2. Insertar al Final");
             System.out.println("3. Eliminar al Inicio");
             System.out.println("4. Eliminar al Final");
             System.out.println("5. Buscar un Elemento");
             System.out.println("6. Imprimir la Lista");
             System.out.println("7. Salir");
-            System.out.print("Seleccione una opción: ");
+            System.out.print("\nSeleccione una opción: ");
             opcion = sc.nextInt(); 
             
             switch (opcion) { // Evaluar la opción seleccionada por el usuario
